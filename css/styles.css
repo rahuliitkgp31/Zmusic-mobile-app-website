@@ -1,0 +1,179 @@
+/* HTML elements */
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  color: #40514e;
+  /* color:#8f8f8f; */
+}
+
+/* Headings */
+.big-heading {
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+.dark-section {
+  background-color: #3d84a8;
+  color: #fff;
+}
+
+.light-section {
+  background-color: #EAF6F6;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin: 0 18px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light';
+}
+
+/* Buttons */
+.download-button {
+  margin: 6% 3% 5% 0;
+}
+
+/* Title section */
+#title {
+  text-align: left;
+  background-image: url(https://slide.smartwpress.com/demo4/wp-content/uploads/revslider/slide_demo4/slider_d4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 10%;
+}
+
+.title-image {
+  transform: rotate(18deg);
+  position: absolute;
+  right: 22%;
+}
+
+/* features-section */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #9852f9;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #6807f9
+}
+
+/* testimonials section */
+.testimonial-text {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press section */
+#press {
+  background-color: #3d84a8;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 8%
+}
+
+.price-text {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* cta section */
+#cta {
+  background-color: #3f72af;
+  color: #fff;
+}
+
+.cta-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* media query */
+@media (max-width : 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
